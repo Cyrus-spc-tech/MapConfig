@@ -1,9 +1,0 @@
-LICENCE
-setup.py
-GeoMap/__init__.py
-GeoMap/map.py
-GeoMap.egg-info/PKG-INFO
-GeoMap.egg-info/SOURCES.txt
-GeoMap.egg-info/dependency_links.txt
-GeoMap.egg-info/requires.txt
-GeoMap.egg-info/top_level.txt

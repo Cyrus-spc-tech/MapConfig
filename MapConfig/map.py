@@ -40,6 +40,12 @@ class GeoMap:
         self._init_map_if_needed([lat, lon])
         icon = folium.CustomIcon(icon_url, icon_size=icon_size)
         folium.Marker([lat, lon], icon=icon, popup=popup).add_to(self._map)
+    
+    def add_path(self,first_place, second_place, color='red', weight=5, popup=None):
+        lat1, lon1 = self._get_coordinates(first_place)
+        lat2, lon2 = self._get_coordinates(second_place)
+        self._init_map_if_needed([(lat1 + lat2) / 2, (lon1 + lon2) / 2])
+        folium.PolyLine([(lat1, lon1), (lat2, lon2)], color=color, weight=weight, popup=popup).add_to(self._map)
 
     def save(self, filepath="my_map.html"):
         if self._map:

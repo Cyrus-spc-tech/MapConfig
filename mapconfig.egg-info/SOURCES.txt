@@ -1,7 +1,8 @@
 LICENCE
+README.md
 setup.py
-GeoMap/__init__.py
-GeoMap/map.py
+mapconfig/__init__.py
+mapconfig/map.py
 mapconfig.egg-info/PKG-INFO
 mapconfig.egg-info/SOURCES.txt
 mapconfig.egg-info/dependency_links.txt

@@ -6,7 +6,6 @@ import os
 
 class GeoMap:
     def __init__(self):
-        """Initialize without center. First place added will set center."""
         self._map = None
         self._has_center = False
 

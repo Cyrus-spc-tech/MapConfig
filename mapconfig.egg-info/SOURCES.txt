@@ -3,6 +3,7 @@ README.md
 setup.py
 mapconfig/__init__.py
 mapconfig/map.py
+mapconfig/weather.py
 mapconfig.egg-info/PKG-INFO
 mapconfig.egg-info/SOURCES.txt
 mapconfig.egg-info/dependency_links.txt

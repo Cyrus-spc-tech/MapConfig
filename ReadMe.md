@@ -18,6 +18,10 @@ It uses OpenStreetMap's Nominatim API to fetch coordinates and Folium to render 
 - 🚀 More coming soon..
 
 ---
+## Installation 
+```
+pip install mapconfig
+```
 
 ## 🚀 Available Function 
 
